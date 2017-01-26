@@ -7,5 +7,6 @@ public class Entry {
 
     public static void main(String[] args) {
         System.out.print("Naren Class");
+		System.out.println("Java Traing 2017");
     }
 }
