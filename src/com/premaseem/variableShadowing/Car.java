@@ -9,5 +9,13 @@ public class Car extends Vehicle {
         return "Bike stunt";
     }
 
+    String engineSound(){
+
+        return "Voo voo ";
+    }
+
+    public String stunt(){
+        return skidAndTurn();
+    }
 
 }

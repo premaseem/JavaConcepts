@@ -7,10 +7,19 @@ public class Bike extends Vehicle{
 
     int noOfWheel = 2;
 
+    String engineSound(){
+
+        return "tuk tuk";
+    }
+
     public String villy(){
         return "Bike stunt";
     }
 
+    @Override
+    public String stunt(){
+        return super.stunt();
+    }
 
     @Override
     public String toString() {

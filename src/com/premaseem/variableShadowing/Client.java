@@ -8,17 +8,10 @@ public class Client {
 
     public static void main(String[] args) {
 
-        Vehicle v = new Bike();
-
-        Bike b = new Bike();
-        System.out.println(v);
-
-        System.out.println(b);
-
-        Car c = new Car();
-        Vehicle car = new Car();
-
-        Vehicle v2 = new Bike();
+        Bike vechile = new Bike();
+        Vehicle vBike = new Bike();
+        Vehicle truck = new Truck();
+        System.out.println(truck.engineSound());
 
 
 
