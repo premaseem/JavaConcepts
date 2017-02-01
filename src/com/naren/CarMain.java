@@ -1,5 +1,7 @@
 package com.naren;
 
+import java.util.Scanner;
+
 /**
  * Created by asee2278 on 1/25/17.
  */

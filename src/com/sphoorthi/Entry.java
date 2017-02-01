@@ -8,8 +8,8 @@ public class Entry {
     public static void main(String[] args) {
        /* System.out.print("Prem Class");
 	System.out.println("A new line added to the entry file");*/
-	CarObject car = new CarObject("Green", "Ford", "Figo", 2017);
-        System.out.println(car.toString());
+//	cam.sphoorthi.CarObject car = new CarObject("Green", "Ford", "Figo", 2017);
+//        System.out.println(car.toString());
 
     }
 }
