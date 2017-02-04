@@ -5,12 +5,40 @@ import java.util.ArrayList;
 /**
  * Created by asee2278 on 1/31/17.
  */
+
+class Car1{
+
+    public Car1(String name){
+        this.name = name;
+    }
+
+    String name = null;
+
+    @Override
+    public boolean equals(Object obj) {
+        if(this.name.equals(((Car1)obj).name)){
+            return true;
+        }
+        return false;
+    }
+
+}
+
 public class EqualsMain {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+        Car1 c1 =new  Car1("bmw");
+        Car1 c2 =new  Car1("bmw");
+        Car1 c3 =new  Car1("honda");
+
+        System.out.println("are they equal "+c1.equals(c2));
+
+
+
         // TODO code application logic here
         ArrayList<Person> people = new ArrayList<Person>();
         people.add(new Person("Subash Adhikari",28));
