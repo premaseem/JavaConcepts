@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Intefaces;
+package com.sphoorthi.Intefaces;
+
+import com.sphoorthi.Vehicle;
 
 /**
  *
  * @author Sphoorthi Gaddam
  */
-public class Bike implements Vehicle {
+public class Bike extends Vehicle {
 
     private int cc;
     private String model;
@@ -22,17 +24,17 @@ public class Bike implements Vehicle {
     }
 
     
-    @Override
+//    @Override
     public String findVehicleType() {
         return "Bike";
     }
 
-    @Override
+//    @Override
     public String findGearType() {
         return "Geared";
     }
-
-    @Override
+//
+//    @Override
     public int noOfSeats() {
         return 2;
     }
@@ -58,7 +60,7 @@ public class Bike implements Vehicle {
     @Override
      public String toString() {
         
-        return "\nVehicle Type: "+findVehicleType()+"\nModel: "+getModel()+"\nColor: "+getColor(color)+"\nGear Type: "+findGearType()+"\nCC: "+getCc()+"CC";
+        return "\nVehicle Type: "+findVehicleType()+"\nModel: "+getModel()+"\nColor: "+"\nGear Type: "+findGearType()+"\nCC: "+getCc()+"CC";
     }
     
 }
