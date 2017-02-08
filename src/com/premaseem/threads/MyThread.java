@@ -19,14 +19,16 @@ class MyThread extends Thread {
         }
 
     }
+
     public static void main(String args[]){
         MyThread t1=new MyThread();
         t1.setName("First Thread");
+
         MyThread t2=new MyThread();
         t2.setName("Second Thread");
 
         t1.start();
-        t2.start();
+        t1.start();
     }
 }
 
